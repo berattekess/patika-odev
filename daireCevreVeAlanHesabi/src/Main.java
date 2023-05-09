@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        //değer alma
+        //değişkenleri tanımlama
         int deger;
         double pi = 3.14 ,alan,cevre;
         
