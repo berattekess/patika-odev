@@ -3,10 +3,13 @@ public class Main {
     public static void main(String[] args) {
         //Değişkenlerin belirlenmesi
         int i,j,k;
+
+        //Kullanıcıdan değer alınması
         System.out.print("Üçgen basamak sayısını giriniz : ");
         Scanner scanner = new Scanner(System.in);
         int n=scanner.nextInt();
 
+        //İşlemlerin yapılması ve ekrana çıktı
         for(i = 0;i < n; i++){
             for(j = 0;j <= i; j++){
                 System.out.print(" ");
